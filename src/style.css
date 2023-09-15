@@ -91,3 +91,27 @@ ul.el-menu--popup li {
 [id^="el-popper-container-"] .el-popper {
   background-color: rgba(242, 135, 81, 0.4) !important;
 }
+
+
+/* 轮播图样式 */
+.news-content-img ul {
+  transform: translateX(40%);
+
+}
+
+.swiper {
+  width: 100%;
+  height: 400px;
+}
+
+.swiper .el-carousel--horizontal,
+.swiper .el-carousel,
+.swiper .el-carousel__container {
+  height: 100% !important;
+
+}
+
+.swiper img {
+  width: 100%;
+  height: 100%;
+}

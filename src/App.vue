@@ -12,11 +12,15 @@ import Header from '../src/components/common/Header.vue'
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+img {
+  display: block;
 }
 html,
 body {
   width: 100vw;
-  height: 999999px;
   overflow-x: hidden;
 }
 </style>

@@ -47,6 +47,11 @@
               index="1"
               route="/"
             >首页</el-menu-item>
+
+            <el-menu-item
+              index="2"
+              route="/branch"
+            >馆政公开</el-menu-item>
             <el-sub-menu
               index="2"
               class="sub_menu"
@@ -56,7 +61,7 @@
               collapse-close-icon="none"
               collapse-open-icon="none"
             >
-              <template #title>馆政公开</template>
+              <template #title>资讯动态</template>
               <template #expand-close-icon>
                 <span></span>
               </template>
@@ -68,7 +73,6 @@
               <el-menu-item index="2-3">文化政策</el-menu-item>
               <el-menu-item index="2-4">基层动态</el-menu-item>
             </el-sub-menu>
-            <el-menu-item index="3">资讯动态</el-menu-item>
             <el-menu-item index="4">文化活动</el-menu-item>
             <el-menu-item index="5">基层场馆</el-menu-item>
             <el-menu-item index="6">公益培训</el-menu-item>
